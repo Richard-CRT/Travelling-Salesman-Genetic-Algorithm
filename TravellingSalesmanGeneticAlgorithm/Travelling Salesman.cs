@@ -35,6 +35,7 @@ namespace TravellingSalesmanGeneticAlgorithm
             int seed = data.Item1;
             TextBoxActiveNodeSeed.Text = seed.ToString();
             CanvasGraph.ClearNodes();
+            CanvasGraph.ClearPaths();
             CanvasGraph.AddNodes(nodes);
             CanvasGraph.RePaint();
 
