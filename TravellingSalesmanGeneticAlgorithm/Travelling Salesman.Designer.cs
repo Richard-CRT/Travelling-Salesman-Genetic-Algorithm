@@ -90,7 +90,7 @@
             // LabelCanvasWidth
             // 
             this.LabelCanvasWidth.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LabelCanvasWidth.Location = new System.Drawing.Point(599, 19);
+            this.LabelCanvasWidth.Location = new System.Drawing.Point(599, 3);
             this.LabelCanvasWidth.Name = "LabelCanvasWidth";
             this.LabelCanvasWidth.Size = new System.Drawing.Size(62, 21);
             this.LabelCanvasWidth.TabIndex = 4;
@@ -105,15 +105,15 @@
             this.panel1.Controls.Add(this.LabelCanvasHeight);
             this.panel1.Controls.Add(this.CanvasGraph);
             this.panel1.Controls.Add(this.LabelCanvasWidth);
-            this.panel1.Location = new System.Drawing.Point(0, 101);
+            this.panel1.Location = new System.Drawing.Point(0, 75);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1263, 546);
+            this.panel1.Size = new System.Drawing.Size(1263, 572);
             this.panel1.TabIndex = 5;
             // 
             // LabelCanvasHeight
             // 
             this.LabelCanvasHeight.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.LabelCanvasHeight.Location = new System.Drawing.Point(1199, 256);
+            this.LabelCanvasHeight.Location = new System.Drawing.Point(1199, 269);
             this.LabelCanvasHeight.Name = "LabelCanvasHeight";
             this.LabelCanvasHeight.Size = new System.Drawing.Size(61, 21);
             this.LabelCanvasHeight.TabIndex = 5;
@@ -228,9 +228,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CanvasGraph.BackColor = System.Drawing.SystemColors.Window;
             this.CanvasGraph.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.CanvasGraph.Location = new System.Drawing.Point(13, 43);
+            this.CanvasGraph.Location = new System.Drawing.Point(13, 26);
             this.CanvasGraph.Name = "CanvasGraph";
-            this.CanvasGraph.Size = new System.Drawing.Size(1184, 503);
+            this.CanvasGraph.Size = new System.Drawing.Size(1184, 546);
             this.CanvasGraph.TabIndex = 0;
             this.CanvasGraph.SizeChanged += new System.EventHandler(this.CanvasGraph_SizeChanged);
             // 
