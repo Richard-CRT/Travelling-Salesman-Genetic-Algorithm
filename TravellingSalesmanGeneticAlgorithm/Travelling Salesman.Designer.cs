@@ -268,7 +268,7 @@
             // LabelNodeSeed
             // 
             this.LabelNodeSeed.AutoSize = true;
-            this.LabelNodeSeed.Location = new System.Drawing.Point(333, 19);
+            this.LabelNodeSeed.Location = new System.Drawing.Point(323, 19);
             this.LabelNodeSeed.Name = "LabelNodeSeed";
             this.LabelNodeSeed.Size = new System.Drawing.Size(127, 13);
             this.LabelNodeSeed.TabIndex = 18;
@@ -276,7 +276,7 @@
             // 
             // NumericNodeSeed
             // 
-            this.NumericNodeSeed.Location = new System.Drawing.Point(463, 17);
+            this.NumericNodeSeed.Location = new System.Drawing.Point(453, 17);
             this.NumericNodeSeed.Maximum = new decimal(new int[] {
             1410065407,
             2,
