@@ -49,6 +49,8 @@ namespace TravellingSalesmanGeneticAlgorithm
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
             base.OnPaint(e);
 
             using (Pen blackPen2 = new Pen(Color.Black, 2))

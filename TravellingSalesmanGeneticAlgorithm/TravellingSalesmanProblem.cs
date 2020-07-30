@@ -46,7 +46,7 @@ namespace TravellingSalesmanGeneticAlgorithm
             activeNodeSeed = newNodeSeed;
         }
 
-        public static Tuple<int,List<Node>> GenerateNodes()
+        public static Tuple<int, List<Node>> GenerateNodes()
         {
             nodesGenerated = true;
             int seed;
@@ -125,6 +125,8 @@ namespace TravellingSalesmanGeneticAlgorithm
             if (populationGenerated)
             {
                 int startPoint = (int)Math.Ceiling((double)activePopulationSize / 100);
+                // Keep the best 1%
+                // Produce the next 99% from mutating the best 99%
                 for (int i = startPoint; i < activePopulationSize; i++)
                 {
                     population[i] = new Individual(population[i - startPoint]);
